@@ -1,13 +1,11 @@
-import React from 'react'
-import Aux from '../../hoc/Aux'
-import classes from './Layout.css'
+import React from "react";
+import Aux from "../../hoc/Aux";
+import classes from "./Layout.css";
 
-const Layout = (props) => (
+const Layout = props => (
   <Aux>
-    <main className='content'>
-      {props.children}
-    </main>
+    <main className="content">{props.children}</main>
   </Aux>
-)
+);
 
-export default Layout
+export default Layout;
